@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio09.CSSDemoPage">
+    <StackLayout>
+        <Label Text="Welcome to CSS!"  />
+
+        <StackLayout>
+
+            <Entry Placeholder="Email Address" />
+            <Entry Placeholder="Password" IsPassword="true" />
+
+            <Button Text="Login" />
+            <Button Text="Forgot Password?" />
+
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
